@@ -1,7 +1,6 @@
 RNFrostedSidebar
 
-[![Coverage Status](https://coveralls.io/repos/spacedrabbit/RNFrostedSidebar/badge.svg)](https://coveralls.io/r/spacedrabbit/RNFrostedSidebar)
-[![Build Status](https://travis-ci.org/spacedrabbit/RNFrostedSidebar.svg?branch=test-jam-test-coverage)](https://travis-ci.org/spacedrabbit/RNFrostedSidebar)
+[![Coverage Status](https://coveralls.io/repos/spacedrabbit/RNFrostedSidebar/badge.svg)](https://coveralls.io/r/spacedrabbit/RNFrostedSidebar) [![Build Status](https://travis-ci.org/spacedrabbit/RNFrostedSidebar.svg?branch=test-jam-test-coverage)](https://travis-ci.org/spacedrabbit/RNFrostedSidebar)
 ===========
 
 Add your own Control Center-esque UI to your app to work as navigation or even toggle different settings. Blend right into the new iOS 7 design with animated blurs, flat design, and custom animations.
