@@ -13,15 +13,16 @@
 
 SpecBegin(RNFrostedSidebarSpec)
 
-describe(@"RNFrostedSidebarSpec", ^{
+describe(@"+[RNFrostedSidebar visibleSidebar] returns instance of RNFrostedSidebar", ^{
     
+    __block RNFrostedSidebar * frostedSidebar;
     beforeAll(^{
-
+        frostedSidebar = [RNFrostedSidebar visibleSidebar];
     });
 
     
-    it(@"", ^{
-
+    it(@"Should not be nil", ^{
+        expect(frostedSidebar).toNot.beNil;
     });  
     
 });
