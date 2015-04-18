@@ -1,4 +1,5 @@
 RNFrostedSidebar
+
 [![Coverage Status](https://coveralls.io/repos/spacedrabbit/RNFrostedSidebar/badge.svg)](https://coveralls.io/r/spacedrabbit/RNFrostedSidebar)
 [![Build Status](https://travis-ci.org/spacedrabbit/RNFrostedSidebar.svg?branch=test-jam-test-coverage)](https://travis-ci.org/spacedrabbit/RNFrostedSidebar)
 ===========
