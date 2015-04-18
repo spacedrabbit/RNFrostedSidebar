@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		140C0D841AE2F4010029C90A /* RNFrostedSidebarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 140C0D831AE2F4010029C90A /* RNFrostedSidebarTests.m */; };
+		140C0D8B1AE2F6490029C90A /* RNFrostedSidebarSpecSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 140C0D8A1AE2F6490029C90A /* RNFrostedSidebarSpecSpec.m */; };
 		86251D5417C3DE9E00837EBD /* burger.png in Resources */ = {isa = PBXBuildFile; fileRef = 86251D3A17C3DE9E00837EBD /* burger.png */; };
 		86251D5517C3DE9E00837EBD /* burger@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86251D3B17C3DE9E00837EBD /* burger@2x.png */; };
 		86251D5617C3DE9E00837EBD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86251D3C17C3DE9E00837EBD /* Default-568h@2x.png */; };
@@ -34,9 +36,26 @@
 		8681BB5917BAFB5A007F1B43 /* RNFrostedSidebar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8681BB5817BAFB5A007F1B43 /* RNFrostedSidebar.m */; };
 		86D2CBF917CEAFE50098397C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862D1B2317BC2C9B00157004 /* QuartzCore.framework */; };
 		86D2CBFA17CEAFE90098397C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862D1B2517BC2CA000157004 /* Accelerate.framework */; };
+		F4BCD605A25CAF5C655C3E48 /* libPods-RNFrostedSidebarTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 625CAF924852652F71D9A22A /* libPods-RNFrostedSidebarTests.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		140C0D851AE2F4010029C90A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8646015517BAF99800FCE7F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8646015C17BAF99800FCE7F4;
+			remoteInfo = RNFrostedSidebar;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		140C0D7F1AE2F4010029C90A /* RNFrostedSidebarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNFrostedSidebarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		140C0D821AE2F4010029C90A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140C0D831AE2F4010029C90A /* RNFrostedSidebarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNFrostedSidebarTests.m; sourceTree = "<group>"; };
+		140C0D8A1AE2F6490029C90A /* RNFrostedSidebarSpecSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNFrostedSidebarSpecSpec.m; sourceTree = "<group>"; };
+		39F9564A6BC585B55AF93C89 /* Pods-RNFrostedSidebarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFrostedSidebarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNFrostedSidebarTests/Pods-RNFrostedSidebarTests.release.xcconfig"; sourceTree = "<group>"; };
+		625CAF924852652F71D9A22A /* libPods-RNFrostedSidebarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNFrostedSidebarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86251D3A17C3DE9E00837EBD /* burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burger.png; sourceTree = "<group>"; };
 		86251D3B17C3DE9E00837EBD /* burger@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "burger@2x.png"; sourceTree = "<group>"; };
 		86251D3C17C3DE9E00837EBD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -71,9 +90,18 @@
 		8646017917BAF99800FCE7F4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8681BB5717BAFB5A007F1B43 /* RNFrostedSidebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNFrostedSidebar.h; sourceTree = "<group>"; };
 		8681BB5817BAFB5A007F1B43 /* RNFrostedSidebar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNFrostedSidebar.m; sourceTree = "<group>"; };
+		B66EA8FB9E51C380B8A9AC89 /* Pods-RNFrostedSidebarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNFrostedSidebarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNFrostedSidebarTests/Pods-RNFrostedSidebarTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		140C0D7C1AE2F4010029C90A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BCD605A25CAF5C655C3E48 /* libPods-RNFrostedSidebarTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8646015A17BAF99800FCE7F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,6 +117,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		140C0D801AE2F4010029C90A /* RNFrostedSidebarTests */ = {
+			isa = PBXGroup;
+			children = (
+				140C0D831AE2F4010029C90A /* RNFrostedSidebarTests.m */,
+				140C0D811AE2F4010029C90A /* Supporting Files */,
+				140C0D8A1AE2F6490029C90A /* RNFrostedSidebarSpecSpec.m */,
+			);
+			path = RNFrostedSidebarTests;
+			sourceTree = "<group>";
+		};
+		140C0D811AE2F4010029C90A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				140C0D821AE2F4010029C90A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		86251D3917C3DE9E00837EBD /* example */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,10 +171,12 @@
 			isa = PBXGroup;
 			children = (
 				86251D3917C3DE9E00837EBD /* example */,
+				140C0D801AE2F4010029C90A /* RNFrostedSidebarTests */,
 				8646015F17BAF99800FCE7F4 /* Frameworks */,
 				8646015E17BAF99800FCE7F4 /* Products */,
 				8681BB5717BAFB5A007F1B43 /* RNFrostedSidebar.h */,
 				8681BB5817BAFB5A007F1B43 /* RNFrostedSidebar.m */,
+				F9DFA8CE08464E3B3C472F54 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				8646015D17BAF99800FCE7F4 /* RNFrostedSidebar.app */,
+				140C0D7F1AE2F4010029C90A /* RNFrostedSidebarTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -149,13 +198,43 @@
 				8646016217BAF99800FCE7F4 /* CoreGraphics.framework */,
 				8646016417BAF99800FCE7F4 /* UIKit.framework */,
 				8646017917BAF99800FCE7F4 /* XCTest.framework */,
+				625CAF924852652F71D9A22A /* libPods-RNFrostedSidebarTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9DFA8CE08464E3B3C472F54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B66EA8FB9E51C380B8A9AC89 /* Pods-RNFrostedSidebarTests.debug.xcconfig */,
+				39F9564A6BC585B55AF93C89 /* Pods-RNFrostedSidebarTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		140C0D7E1AE2F4010029C90A /* RNFrostedSidebarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 140C0D891AE2F4010029C90A /* Build configuration list for PBXNativeTarget "RNFrostedSidebarTests" */;
+			buildPhases = (
+				22B8B33E0807C3EF04D9B225 /* Check Pods Manifest.lock */,
+				140C0D7B1AE2F4010029C90A /* Sources */,
+				140C0D7C1AE2F4010029C90A /* Frameworks */,
+				140C0D7D1AE2F4010029C90A /* Resources */,
+				8191323675730A2EDB0BF4A1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				140C0D861AE2F4010029C90A /* PBXTargetDependency */,
+			);
+			name = RNFrostedSidebarTests;
+			productName = RNFrostedSidebarTests;
+			productReference = 140C0D7F1AE2F4010029C90A /* RNFrostedSidebarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		8646015C17BAF99800FCE7F4 /* RNFrostedSidebar */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8646018917BAF99800FCE7F4 /* Build configuration list for PBXNativeTarget "RNFrostedSidebar" */;
@@ -182,6 +261,12 @@
 				CLASSPREFIX = RN;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Ryan Nystrom";
+				TargetAttributes = {
+					140C0D7E1AE2F4010029C90A = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 8646015C17BAF99800FCE7F4;
+					};
+				};
 			};
 			buildConfigurationList = 8646015817BAF99800FCE7F4 /* Build configuration list for PBXProject "RNFrostedSidebar" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -196,11 +281,19 @@
 			projectRoot = "";
 			targets = (
 				8646015C17BAF99800FCE7F4 /* RNFrostedSidebar */,
+				140C0D7E1AE2F4010029C90A /* RNFrostedSidebarTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		140C0D7D1AE2F4010029C90A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8646015B17BAF99800FCE7F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -228,7 +321,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22B8B33E0807C3EF04D9B225 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8191323675730A2EDB0BF4A1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNFrostedSidebarTests/Pods-RNFrostedSidebarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		140C0D7B1AE2F4010029C90A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140C0D8B1AE2F6490029C90A /* RNFrostedSidebarSpecSpec.m in Sources */,
+				140C0D841AE2F4010029C90A /* RNFrostedSidebarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8646015917BAF99800FCE7F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,6 +377,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		140C0D861AE2F4010029C90A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8646015C17BAF99800FCE7F4 /* RNFrostedSidebar */;
+			targetProxy = 140C0D851AE2F4010029C90A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		86251D3F17C3DE9E00837EBD /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -254,6 +397,59 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		140C0D871AE2F4010029C90A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B66EA8FB9E51C380B8A9AC89 /* Pods-RNFrostedSidebarTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = RNFrostedSidebarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNFrostedSidebar.app/RNFrostedSidebar";
+			};
+			name = Debug;
+		};
+		140C0D881AE2F4010029C90A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39F9564A6BC585B55AF93C89 /* Pods-RNFrostedSidebarTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = RNFrostedSidebarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNFrostedSidebar.app/RNFrostedSidebar";
+			};
+			name = Release;
+		};
 		8646018717BAF99800FCE7F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -332,7 +528,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "example/RNFrostedSidebar-Prefix.pch";
 				INFOPLIST_FILE = "example/RNFrostedSidebar-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = RNFrostedSidebar;
 				WRAPPER_EXTENSION = app;
 			};
@@ -346,7 +542,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "example/RNFrostedSidebar-Prefix.pch";
 				INFOPLIST_FILE = "example/RNFrostedSidebar-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = RNFrostedSidebar;
 				WRAPPER_EXTENSION = app;
 			};
@@ -355,6 +551,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		140C0D891AE2F4010029C90A /* Build configuration list for PBXNativeTarget "RNFrostedSidebarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140C0D871AE2F4010029C90A /* Debug */,
+				140C0D881AE2F4010029C90A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8646015817BAF99800FCE7F4 /* Build configuration list for PBXProject "RNFrostedSidebar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

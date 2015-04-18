@@ -1,0 +1,11 @@
+language: objective-c
+xcode_sdk: iphonesimulator8.1
+xcode_scheme: RNFrostedSidebar
+xcode_workspace: RNFrostedSidebar.xcworkspace
+before_install:
+  - brew update
+  - brew reinstall xctool
+  - gem update cocoapods
+  - gem install slather
+after_success:
+  - slather
